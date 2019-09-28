@@ -10,10 +10,6 @@ module ApplicationHelper
         end
     end
     
-        #Method to highliught the appropriate sorted field
-    def css_helper(sort_column)
-    return '.bg-warning'
-    end
     
     #Method to sort by move title or Release date
     def sort_helper(sort_column)
